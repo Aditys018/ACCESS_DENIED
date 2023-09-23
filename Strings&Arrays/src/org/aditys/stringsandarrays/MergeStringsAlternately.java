@@ -4,6 +4,7 @@ end of the merged string.
 Return the merged string.
 */
 
+
 package org.aditys.stringsandarrays;
 
 public class MergeStringsAlternately {
