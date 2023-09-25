@@ -1,3 +1,13 @@
+/* First, we will use two loops(nested loops) to traverse all the cells of the matrix.
+ 
+If any cell (i,j) contains the value 0, we will mark all cells in row i and column j with -1 except those which contain 0.
+
+We will perform step 2 for every cell containing 0.
+
+Finally, we will mark all the cells containing -1 with 0.
+
+Thus the given matrix will be modified according to the question. */
+
 package org.aditys.leetcodemetsolutions;
 
 public class SetMatrixZeroes {
